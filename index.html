@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>故宫博物院</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css//common.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <!-- 可视区域 -->
+      <div class="flex-x-cener">
+        <img src="./img/header/logo.png" alt="" />
+        <div id="headerNavMain" class="header-nav-main">
+          <span class="nav-list-title on">首页</span>
+          <span class="nav-list-title on" data="n1">导览</span>
+          <span class="nav-list-title on" data="n2">展览</span>
+          <span class="nav-list-title on" data="n3">教育</span>
+          <span class="nav-list-title on" data="n4">探索</span>
+          <span class="nav-list-title on" data="n5">学术</span>
+          <span class="nav-list-title on" data="n6">文创</span>
+          <span class="nav-list-title on" data="n7">关于</span>
+        </div>
+        <div class="header-nav-setting flex-x-cener">
+          <div class="setting-item-list">
+            <!-- 可视化区域 -->
+            <div class="item-title">
+              <i class="icon iconfont icon-user2"></i>
+              <i class="icon iconfont icon-sanjiao"></i>
+            </div>
+            <!-- 隐藏区域内容 -->
+            <div class="item-masker-container classify">
+              <div class="masker-item">登录</div>
+              <div class="masker-item">注册</div>
+            </div>
+          </div>
+          <div class="setting-item-list">
+            <!-- 可视化区域 -->
+            <div class="item-title">
+              <span>CN</span>
+              <i class="icon iconfont icon-sanjiao"></i>
+            </div>
+            <!-- 隐藏区域内容 -->
+            <div class="item-masker-container">
+              <div class="masker-item">EN</div>
+              <div class="masker-item">青少年版</div>
+            </div>
+          </div>
+          <div class="setting-item-list">
+            <!-- 可视化区域 -->
+            <div class="item-title">
+              <i class="icon iconfont icon-Search"></i>
+              <i class="icon iconfont icon-sanjiao"></i>
+            </div>
+            <!-- 隐藏区域内容 -->
+            <div class="item-masker-container">
+              <input type="text" class="=search-input">
+              <i class="icon iconfont icon-Search"></i>
+            </div>
+          </div>
+          <div class="setting-item-list">
+            <!-- 可视化区域 -->
+            <div class="item-title">
+              <i class="icon iconfont icon-menu1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 导航的隐藏区域的内容 -->
+      <div class="navigator-masker-container"></div>
+    </div>
+
+    <!-- 遮罩层隐藏区域内容 -->
+    <div class="menu-masker-container"></div>
+
+    <script src="./js/header.js"></script>
+  </body>
+</html>

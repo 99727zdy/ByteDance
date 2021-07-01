@@ -1,0 +1,79 @@
+/* 头部样式内容 */
+
+.header-container {
+    background-color: rgba(25, 25, 25, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+    padding: 0 40px;
+}
+
+.logo {
+    height: 48px;
+}
+
+.header-nav-main {
+    display: flex;
+    justify-content: space-around;
+    max-width: 848px;
+    width: 848px;
+}
+
+.nav-list-title {
+  font-size: 18px;
+  line-height: 48px;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center;
+  position: relative;
+  background-size: 18px 10px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.nav-list-title.on {
+  background-image: url(../img/header/arrow_top.png);
+  color: #c2a680;
+}
+.nav-list-title.on:nth-child(1) {
+  background-image: none;
+}
+
+.setting-item-list {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.item-title {
+  position: relative;
+  /* 鼠标悬停时显示小手 */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.item-masker-container.classify {
+  width: 80px;
+  height: 70px;
+  border: 1px solid #fff;
+  top: 48px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  display: none;
+  transform: translateX(-50%);
+}
+
+.masker-item:nth-child(1) {
+  border-bottom: 1px solid #fff;
+}
+.masker-item {
+  height: 50%;
+  line-height: 34px;
+}
